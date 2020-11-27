@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -7,8 +7,6 @@
 #define NAMELEN 11
 #define MAX 10
 #define MIN 1
-
-void Medicine(){
 char name[NAMELEN],ch;
 short int number,wrong;
 int table,answer;
@@ -91,5 +89,4 @@ void cap(char *ptr2name)
 {
     if(ptr2name[0])
     *ptr2name = toupper((int)*ptr2name);
-}
 }
