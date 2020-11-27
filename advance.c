@@ -70,7 +70,7 @@ ch = toupper((int)getch());
 printf("\n");
 }
 while (ch=='N');
-printf("\nMATH Table Copyright by BestEngineeringProjects.com.\n");
+printf("\nMATH Table Projects.com.\n");
 return 0;
 }
  
